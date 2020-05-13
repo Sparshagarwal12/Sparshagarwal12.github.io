@@ -1,0 +1,188 @@
+
+.container{
+    background-color: #eae7dc;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg{
+    background-image: url("Images/mainback.jpg");
+    height: 800px;
+    width: 100%;
+}
+.bg2{
+    background-color: turquoise;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+}
+
+.text{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.myimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border:2px solid black;
+}
+.but{
+    background-color: transparent;
+    border:1px solid black;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-weight: bold;
+    border-radius: 30px;
+    width: 150px;
+    margin-top: 50px;
+    transition: 0.4s;
+}
+.but:hover{
+    background-color: blue;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    font-weight: bold;
+    margin-top: 50px;
+    border-radius: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.sideFont{
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.aboutSec{
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+}
+.aboutSec .special{
+    background-color:transparent;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    height: 250px;
+    width: 220px;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+.special:hover{
+    transform: scale(1.1);
+    background-color: blue;
+    color: white;
+}
+
+.bg2 .intro2{
+    color: tomato;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.bg2 .intro1, .bg2 .intro3{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+} 
+
+.name{
+    justify-content: center;
+    padding-top: 150px;
+}
+#skills{
+    background-color:  #85c1e9 ;
+    height:650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#skills .known{
+    background-color: white;
+    height: 250px;
+    margin-top: 230px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 20px;
+    width: 220px;
+    transition: 0.4s;
+    cursor: pointer;
+    color: black;
+}
+#skills .known:hover{
+   background-color: #abebc6;
+   color: blue;
+   cursor: pointer;
+   transform: scale(1.1);
+}
+#skills .level{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#skills .known1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+ .sintro{
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#main2 .backBut{
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    margin-top: 40px;
+    border:2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin-left: 15px;
+    transition: 0.4s;
+}
+#main2 .backBut:hover{
+    background-color: blue;
+    border: none;
+    color: white;
+    transform: scale(1.1);
+}
+
+#skills .backBut{
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    margin-top: 40px;
+    border:2px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    height: 0px;
+    margin-left: 15px;
+    transition: 0.4s;
+}
